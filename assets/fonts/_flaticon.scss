@@ -1,0 +1,75 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 15/04/2017 12:22
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-paint:before { content: "\f100"; }
+.flaticon-caution:before { content: "\f101"; }
+.flaticon-transport:before { content: "\f102"; }
+.flaticon-settings:before { content: "\f103"; }
+.flaticon-engineer:before { content: "\f104"; }
+.flaticon-support:before { content: "\f105"; }
+.flaticon-placeholder-1:before { content: "\f106"; }
+.flaticon-speech-bubble:before { content: "\f107"; }
+.flaticon-email:before { content: "\f108"; }
+.flaticon-technology:before { content: "\f109"; }
+.flaticon-phone-call:before { content: "\f10a"; }
+.flaticon-placeholder:before { content: "\f10b"; }
+.flaticon-construction:before { content: "\f10c"; }
+.flaticon-skyline:before { content: "\f10d"; }
+.flaticon-fence:before { content: "\f10e"; }
+.flaticon-money:before { content: "\f10f"; }
+.flaticon-mansion:before { content: "\f110"; }
+.flaticon-home:before { content: "\f111"; }
+    
+    $font-Flaticon-paint: "\f100";
+    $font-Flaticon-caution: "\f101";
+    $font-Flaticon-transport: "\f102";
+    $font-Flaticon-settings: "\f103";
+    $font-Flaticon-engineer: "\f104";
+    $font-Flaticon-support: "\f105";
+    $font-Flaticon-placeholder-1: "\f106";
+    $font-Flaticon-speech-bubble: "\f107";
+    $font-Flaticon-email: "\f108";
+    $font-Flaticon-technology: "\f109";
+    $font-Flaticon-phone-call: "\f10a";
+    $font-Flaticon-placeholder: "\f10b";
+    $font-Flaticon-construction: "\f10c";
+    $font-Flaticon-skyline: "\f10d";
+    $font-Flaticon-fence: "\f10e";
+    $font-Flaticon-money: "\f10f";
+    $font-Flaticon-mansion: "\f110";
+    $font-Flaticon-home: "\f111";
