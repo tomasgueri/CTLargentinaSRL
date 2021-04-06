@@ -1,0 +1,36 @@
+#filters {margin:0 auto 50px auto;padding:0; width:100%;list-style:none;display:inline-block}
+
+.item.small { width: 25%; }
+.item.medium { width: 35%; }
+.large { width:48.2%!important;}
+
+.cake-icone  { background:url(../images/icon10.png) no-repeat bottom center!important; height:49px; margin:25% 0 0 0}
+.portfolio:hover .cake-icone { -webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;-o-transition: all 1s ease-in-out;transition: all 1s ease-in-out;}
+
+
+.hover-text { left:20px; right:20px; top:20px; top:20px; width:auto; height:90%; border:solid 3px rgba(255, 255, 255, 0.3); cursor:pointer;}
+.hover-text h3 { margin:2% 0 2% 0}
+
+#filters li {display:inline-block; margin:18px 1px 0 1px}
+#filters li span {
+display: block;text-transform:uppercase; font-weight:500;
+position:relative;padding:8px 20px;text-decoration:none;
+color:#000; font-size:13px;cursor: pointer;margin:0 0 4px;
+border-top:solid 1px #252525; border-bottom:solid 1px #252525 
+}
+#filters li span.active {color:#fff; background:#0f49ac}
+ 
+#portfoliolist{min-height:315px}
+#portfoliolist .portfolio {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+margin:0;
+display:none;
+}
+#portfoliolist .portfolio {
+	position:relative;
+	height:auto; margin:0 0 30px 0; 
+}
+

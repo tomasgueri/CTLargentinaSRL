@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Home Construction Theme
+Version:    1.0
+Last change:    14.02.2020
+-------------------------------------------------------------------
+
+[Table of contents]
+
+1. Body
+2. Header / .top-header
+3. Navigation / .navbar
+4. Menu Tabs / .nav-tabs
+5. Owl Carousel / .owl-carousel
+6. Image Carousel / #myCarousel
+7. Google Map / #mapkit-7453
+8. Content / .content-section
+9. Number scroll / .counter-div
+10. Services Page / .services-main
+11. Inner header / .inner-header
+12. Blog Page / .blog-bg
+13. Footer / .footer
+
+-------------------------------------------------------------------
+
+[Color codes]
+Body-Font:  	#808080 {dark-Grey}
+Background:		#ffffff (white)
+Content:		#4b4b4b (light black)
+
+a (standard):	#000 (black)
+a (visited):	#ffae00 (dark yellow)
+a (active):	 	#ffae00 (dark yellow)
+ 
+-------------------------------------------------------------------
+
+[Font Properties]
+Body font:			14px Open sans,sans-serif;
+Headers:			11px, 400, Open sans,sans-serif;
+Input, textarea:	14px Open sans,sans-serif;
+
+Notes:	decreasing heading by 0.4em with every subsequent heading level
+
+-------------------------------------------------------------------*/
+
+/*[Google Fonts]*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
+
+/*[Bootstrap Core CSS]*/
+@import "../../assets/css/bootstrap.min.css";
+@import "../css/style.min.css";
+@import "../assets/css/home/style.css";
+
+
+/*[basic CSS]*/
+@import "../css/basic.css";
+
+/*[Animation CSS]*/
+@import "../css/animate.css";
+
+/*[Hover effects CSS]*/
+@import "../css/component-2.css";
+@import "../css/hover.css";
+@import "../css/modern-hover.css";
+
+
+
+/*[Responsive CSS]*/
+@import "../css/responsive.css";
+
+/*------------------------------css ends here-------------------------------------*/

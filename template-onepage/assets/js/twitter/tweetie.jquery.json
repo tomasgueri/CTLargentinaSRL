@@ -1,0 +1,23 @@
+{
+    "name": "Srgit Twitter",
+    "version": "2.4.2",
+    "title": "Srgit Twitter - Twitter Feed Module",
+    "description": "Customize twitter feeds to show on your website",
+    "keywords": [
+        "twitter",
+        "tweet"
+    ],
+    "author": {
+        "name": "SRGIT",
+        "url": "http://srgit.com/"
+    },
+    "licenses": [
+        {
+            "url": "http://srgit.com/"
+        }
+    ],
+    "homepage": "http://srgit.com/",
+    "dependencies": {
+        "jquery": ">=1.7"
+    }
+}
