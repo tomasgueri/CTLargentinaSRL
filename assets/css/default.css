@@ -57,7 +57,7 @@ Notes:	decreasing heading by 0.4em with every subsequent heading level
 /*[Bootstrap Core CSS]*/
 
 @import "../../assets/css/bootstrap.min.css";
-@import "../css/style.min.css";
+/* @import "../css/style.min.css"; */
 
 /*[basic CSS]*/
 @import "../css/basic.css";

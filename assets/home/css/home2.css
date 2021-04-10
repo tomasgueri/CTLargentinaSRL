@@ -508,13 +508,13 @@ body {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(25, 47, 115, 0.8);
+  background: #b64945;
   opacity: 0;
   padding: 35% 0 0 0;
   cursor: pointer;
 }
 .img-hover-div:hover .img-hover {
-  opacity: 1;
+  opacity: 0.9;
 }
 .img-text h4 {
   color: #fff;
@@ -932,8 +932,9 @@ body {
     .news-section .owl-next::after, .news-section .owl-prev::after{font-size:15px; left:10px;}
     }
 .footer {
-  background: url(https://via.placeholder.com/1920x1080) no-repeat center center
-    fixed;
+  /* background: url(https://cdn.pixabay.com/photo/2015/05/15/15/00/building-768815_1280.jpg) no-repeat center center
+    fixed; */
+    background-color: #2e2e2e ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -951,7 +952,7 @@ body {
   font-size: 20px;
 }
 .foot-social li a {
-  color: #ffd200;
+  color: white;
 }
 .foot-social li a i {
   -webkit-transition: all 0.2s ease-in-out;
@@ -961,7 +962,7 @@ body {
 }
 
 .foot-social li a:hover i {
-  color: #ffffff;
+  color: #903936;
 }
 
 .foot-content p {
@@ -986,7 +987,6 @@ body {
 .quick-links li {
   list-style: none;
   line-height: 23px;
-  padding-left: 25px;
   position: relative;
   margin-bottom: 5px;
 }
@@ -994,14 +994,9 @@ body {
   color: #ffffff;
 }
 .quick-links li a:hover {
-  color: #ffd200;
-}
-.quick-links li::before {
-  content: "\f105";
-  font-family: "FontAwesome";
-  color: #ffffff;
-  position: absolute;
-  left: 0;
+  color: #903936;
+  transition: 0.6s;
+  /* transform: scale(1.1); */
 }
 .insta-pics {
   border-radius: 10px;

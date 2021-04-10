@@ -72,6 +72,12 @@ header .overlay {
 }
 .bajada-titulo-header {
   font-family: "Poppins", sans-serif;
+  max-width: 50%;
+}
+@media (max-width: 635px) {
+  .bajada-titulo-header {
+    max-width: 900%;
+  }
 }
 .nosotros-descripcion {
   font-size: 1.2rem !important;
@@ -367,4 +373,39 @@ header .overlay {
     color: #903936;
     border: 2px solid #903936;
     background-color: white !important;
+}
+.banner-proyectos {
+  background: url("../imgs/banner-slider/banner-proyectos.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 400px;
+  margin-top: -70px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  /* background-attachment: fixed; */
+}
+
+@media (max-width: 635px) {
+  .banner-proyectos {
+    margin-top: -90px;
+  }
+  .banner-proyectos h1,p {
+    font-size: 0.9rem !important;
+  }
+}
+.nav-link {
+  text-decoration: none !important;
+}
+.nav-link:hover {
+  text-decoration: underline !important;
+}
+html {
+  -webkit-text-size-adjust: none;
+}
+.footer-social {
+  display: flex;
+  padding: 0 0;
+  justify-content: space-around;
 }
