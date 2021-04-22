@@ -278,7 +278,7 @@ body {
   color: #666666;
 }
 .social-media-1 a:hover {
-  color: #f7be02;
+  color: #903936;
 }
 .portfolio-item {
   margin-bottom: 30px;
@@ -462,8 +462,9 @@ body {
   padding: 15px 40px;
   border-radius: 50px;
   text-transform: uppercase;
-  color: #000;
+  color: white;
   font-weight: 700;
+  text-decoration: none;
 }
 .btn-css:hover {
   background: #173171;
@@ -790,7 +791,8 @@ body {
   float: left;
 }
 .newsletter .col-xs-2 i {
-    padding-top: 50px;
+  position: relative;
+  top: 22px
 }
 .newsletter .col-xs-2 i.flaticon-technology {
   top: 26px;
@@ -934,14 +936,14 @@ body {
 .footer {
   /* background: url(https://cdn.pixabay.com/photo/2015/05/15/15/00/building-768815_1280.jpg) no-repeat center center
     fixed; */
-    background-color: #2e2e2e ;
+    background-color: #2e2e2e !important;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   padding: 0px 0 0;
   color: #ffffff;
-  margin-top: 40px;
+  /* margin-top: 100px; */
 }
 .footer-container {
   overflow-x: hidden;

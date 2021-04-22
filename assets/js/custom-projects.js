@@ -9,7 +9,7 @@ $(function () {
     			  filter: '.filter'	
     		  },
     		  load: {
-      		  filter: '.app, .card, .icon, .logo, .web'  
+      		  filter: '.app'  
       		}     
 				});								
 			

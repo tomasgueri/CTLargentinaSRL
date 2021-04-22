@@ -768,8 +768,8 @@ figure.effect-jazz {
 	background: linear-gradient(-45deg, #000000 0%, #1c1c1c 100%);
 }
 .portfolio figure.effect-jazz {
-	background: -webkit-linear-gradient(-45deg, #ffd800 0%, #ffae00 100%);
-	background: linear-gradient(-45deg, #ffd800 0%, #ffae00 100%);
+	background: -webkit-linear-gradient(-45deg, #b64945 0%, #903936 100%);
+	background: linear-gradient(-45deg, #b64945 0%, #903936 100%);
 }
 .portfolio figure.effect-jazz i {
 	padding:10px;
