@@ -386,14 +386,12 @@ header .overlay {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 400px;
-  margin-top: -70px;
   display: flex;
   justify-content: left;
   align-items: center;
   /* background-attachment: fixed; */
 }
-.banner-proyecto {
+.banner-acueducto {
   height: 400px !important;
 }
 .banner-pasto-grande {
@@ -401,18 +399,63 @@ header .overlay {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 400px;
-  margin-top: -70px;
   display: flex;
   justify-content: left;
   align-items: center;
 
 }
+.banner-centro-cultural {
+  background: url("../imgs/banner-slider/centro-cultural.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+}
+.banner-joyeria-luxury {
+  background: url("../imgs/banner-slider/joyeria-luxury.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+}
+.banner-villa-lola {
+  background: url("../imgs/banner-slider/countryside.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.banner-veloz-del-norte {
+  background: url("../imgs/banner-slider/veloz-del-norte.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.banner-esc-guemes {
+  background: url("../imgs/banner-slider/esc-guemes.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
 .banner-servicios {
   background: url("../imgs/banner-slider/banner-servicios.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center;  
   min-height: 400px;
   margin-top: -70px;
   display: flex;
@@ -421,12 +464,121 @@ header .overlay {
   /* background-attachment: fixed; */
 }
 
-@media (max-width: 635px) {
+@media (min-width: 300px) {
   .banner-proyectos {
-    margin-top: -90px;
+    min-height: 200px;
+    margin-top: -150px;
+  }  
+  .banner-villa-lola {
+    min-height: 200px;
+    margin-top: -150px;
   }
-  .banner-proyectos h1,p {
-    font-size: 0.9rem !important;
+  .banner-veloz-del-norte {
+    min-height: 200px;
+    margin-top: -150px;
+  }
+  .banner-esc-guemes {
+    min-height: 200px;
+    margin-top: -150px;
+  }
+  .banner-pasto-grande {
+    min-height: 200px;
+    margin-top: -150px;
+  }
+  .titulo-header {
+    font-size: 1.2rem !important;
+  }
+  .banner-acueducto {
+    margin-top: -150px;
+  }
+  .banner-joyeria-luxury {
+    min-height: 200px;
+    margin-top: -150px;
+  }
+  .banner-centro-cultural {
+    min-height: 200px;
+    margin-top: -150px;
+  }
+  .banner-servicios {
+    min-height: 300px;
+    margin-top: -190px;
+  }
+}
+@media (min-width: 760px) {
+  .titulo-header {
+    font-size: 36px !important;
+  }
+  .banner-proyectos {
+    margin-top: -130px;
+    min-height: 300px;
+  }
+  .banner-villa-lola {
+    margin-top: -130px;
+    min-height: 300px;
+  }
+  .banner-veloz-del-norte {
+    margin-top: -130px;
+    min-height: 300px;
+  }
+  .banner-esc-guemes {
+    margin-top: -130px;
+    min-height: 300px;
+  }
+  .banner-pasto-grande {
+    margin-top: -130px;
+    min-height: 300px;
+  }
+  .banner-acueducto {
+    margin-top: -130px;
+  }
+  .banner-joyeria-luxury {
+    margin-top: -130px;
+    min-height: 300px;
+  }
+  .banner-centro-cultural {
+    margin-top: -130px;
+    min-height: 300px;
+  }
+  .banner-servicios {
+    margin-top: -130px;
+    min-height: 300px;
+  }
+}
+@media (min-width: 1000px) {
+  .banner-proyectos {
+    min-height: 400px;
+    margin-top: -70px;
+  }
+  .banner-villa-lola {
+    min-height: 400px;
+    margin-top: -70px;
+  }
+  .banner-veloz-del-norte {
+    min-height: 400px;
+    margin-top: -70px;
+  }
+  .banner-esc-guemes {
+    min-height: 400px;
+    margin-top: -70px;
+  }
+  .banner-pasto-grande {
+    min-height: 400px;
+    margin-top: -70px;
+  }
+  .banner-acueducto {
+    margin-top: -70px;
+  }
+  .banner-joyeria-luxury {
+    min-height: 400px;
+    margin-top: -70px;
+  }
+  .banner-centro-cultural {
+    min-height: 400px;
+    margin-top: -70px;
+  }
+  .banner-servicios {
+    min-height: 400px;
+    margin-top: -70px;
   }
 }
 .nav-link {
@@ -450,6 +602,9 @@ html {
 .navbar-secundario {
   padding: 0px 16px 5px;
 }
+/* .navbar-index {
+  height: 50px;
+} */
 .text-decoration-underline {
   text-decoration: underline !important;
 }
@@ -503,4 +658,7 @@ html {
 }
 .border-radius-10 {
   border-radius: 10px;
+}
+.imagenes-proyecto img {
+  height: 800px !important;
 }

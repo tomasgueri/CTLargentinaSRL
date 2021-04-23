@@ -1,6 +1,7 @@
 /* CSS Document */
 .blog-right-2{margin-bottom:15px}
-.amazingslider-img-1 img{width:100%}
+.amazingslider-img-1 img{width:100%;}
+
 .subscribe-form input[type="email"]{color:#FFFFFF}
 .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{display:block!important}
 .bottom-links a:hover, .bottom-links a:focus{color:#ffffff}
@@ -408,7 +409,7 @@ figure.effect-jazz p{display:none}
 .player-container h3{font-size:25px}
 .top-search input[type="submit"]:hover {width:20%; background:#000000 url("../imgs/icons/search.png") no-repeat scroll center center / 20px auto;}
 #amazingslider-1, #amazingslider-wrapper-1{width:100%!important; margin:0!important; max-width:100%!important; overflow:hidden}
-#amazingslider-1{height:280px!important}
+#amazingslider-1{height:980px !important}
 .amazingslider-text-1, .amazingslider-nav-1{display:none!important}
 .quick-links{padding:10px 5px 0 0!important}
 .quick-links li{display:inline-block; width:48%}
@@ -424,7 +425,7 @@ figure.effect-jazz p{display:none}
 @media (max-width:480px) {
 
 .grid-2 {padding: 0;}
-#amazingslider-1 {height: 240px!important;}
+#amazingslider-1 {height: 940px!important;}
 .portfolio figure.effect-jazz{background:0 none}
 .copyright{padding:20px 0}
 .grid-2 .col-lg-4{margin-bottom:5px}
@@ -443,7 +444,7 @@ figure.effect-jazz p{display:none}
 @media (max-width:479px) {
 .about-sec-time li {width:100%; padding:25px 0 }
 .company-certification .col-xs-3{padding:0 20x}
-#amazingslider-1{height:190px!important}
+#amazingslider-1{height:300px!important}
 .about-sec-time .display-cell {display:inline-block;}
 .player-container h3{font-size:20px}
 .content-section{padding:10px 0}
