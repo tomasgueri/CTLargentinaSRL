@@ -9,7 +9,7 @@ $(function () {
     			  filter: '.filter'	
     		  },
     		  load: {
-      		  filter: '.app'  
+      		  filter: '.obra'  
       		}     
 				});								
 			
